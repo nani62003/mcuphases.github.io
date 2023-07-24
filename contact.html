@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phase--3</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>  
+<body>
+       <div class="cont-main">
+        <a href="contact.html"></a>
+        <div class="navbar" id="navLinks">
+            <img src="" class="logo">
+            <i class="bi bi-door-closed-fill" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="phase-1.html">PHASE-1</a></li>
+                <li><a href="phase-2.html">PHASE-2</a></li>
+                <li><a href="phase-3.html">PHASE-3</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>    
+        <i class="bi bi-menu-app-fill" onclick="showMenu()"></i>
+        </div>
+        <h1 class="padd">LOGIN</h1>
+    </div>
+
+    <div class="container">
+        <form action="/action_page.php">
+          <div class="row">
+            <h2 style="text-align:center">Login with Social Media or Manually</h2><br><br>
+      
+            <div class="col">
+              <a href="https://www.facebook.com/Marvel/" class="fb btn">
+                <i class="bi bi-facebook bi-fw"></i> Login with Facebook
+              </a><br><br>
+              <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fmarvel" class="twitter btn">
+                <i class="bi bi-twitter bi-fw"></i> Login with Twitter
+              </a><br><br>
+              <a href="https://www.marvel.com/signin" class="google btn">
+                <i class="bi bi-google bi-fw"></i> Login with Google+
+              </a><br><br>
+              <a href="https://www.pinterest.com/marvelofficial/" class="pinterest btn">
+                <i class="bi bi-pinterest bi-fw"></i> Login with Pinterest
+              </a><br><br>
+              <a href="https://www.instagram.com/marvel/" class="instagram btn">
+                <i class="bi bi-google bi-fw"></i> Login with Instagram
+              </a><br><br>
+              <a href="https://www.youtube.com/marvel" class="youtube btn">
+                <i class="bi bi-youtube bi-fw"></i> Login with Youtube
+              </a><br><br>
+            </div><br><br><br>
+      
+            <div class="col">
+              <div class="hide-md-lg">
+                <p>Or sign in manually:</p><br><br>
+              </div>
+      
+              <input type="text" name="username" placeholder="Username" required><br><br>
+              <input type="password" name="password" placeholder="Password" required><br><br>
+              <input type="submit" value="Login">
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="bottom-container">
+        <div class="row">
+          <div class="col">
+            <a href="" style="color:white" class="btn">Sign up</a>
+          </div>
+          <div class="col">
+            <a href="" style="color:white" class="btn">Forgot password?</a>
+          </div>
+        </div>
+      </div>
+      
+
+<!----CONTACT CONTENT-->  
+<section class="cont-1">
+    <div class="row">
+        <div class="cont-col">
+            <p class="mm-3"> Marvel is a prominent entertainment company known for its <br>
+                iconic comic books, movies, television shows, and other media <br>
+                properties. It was founded in 1939 as Timely Publications and later <br>
+                became known as Marvel Comics in the 1960s. The company's <br>
+                headquarters are in New York City, USA.</p><br><br><br><br>
+            <img src="phase-3/spy.jpg"><br><br><br><br><br><br><br>
+            <a class="anc" href="https://www.marvel.com/articles/movies/the-essential-marvel-cinematic-universe-guide-phase-three">EXPLORE MORE</a>
+        </div>
+    </div>
+  </section>
+
+    <!---FOOTER-->
+
+<section class="footer">
+    <h4>About</h4>
+    <p>The Marvel Universe is a fictional shared universe <br>
+        where the stories in most American comic book titles <br>
+        and other media published by Marvel Comics</p>
+
+    <div class="icons">
+        <a href="https://www.facebook.com/Marvel/"> <i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/marvel/"><i class="bi bi-instagram"></i></a>
+        <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fmarvel"><i class="bi bi-twitter"></i></a>
+        <a href="https://www.snapchat.com/add/marvelhq"><i class="bi bi-snapchat"></i></a>
+    </div>    
+</section>
+
+<!----js for menu and close-->
+<script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu(){
+        navLinks.style.left = "0";
+      } 
+      function hideMenu(){
+        navLinks.style.left = "-231px";
+      }
+</script>
+
+
+</body>  
+</html>
